@@ -4,4 +4,4 @@ FROM python:3.9
 RUN pip install --upgrade pip
 
 COPY . .
-CMD ["python3", "main.py"]
+RUN ["python3", "main.py"]
